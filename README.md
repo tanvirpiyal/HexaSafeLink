@@ -25,3 +25,23 @@ hexasafelink https://bit.ly/freebitcoin
 
 ##Usage
 hexasafelink <url>
+
+##✅ Termux (Android)
+# update packages
+pkg update && pkg upgrade -y
+
+# install python and git
+pkg install python git -y
+
+# clone repo
+git clone https://github.com/tanvirpiyal/HexaSafeLink
+cd HexaSafeLink
+
+# install dependencies
+pip install --break-system-packages -r requirements.txt
+
+# run CLI
+python -m hexasafelink https://bit.ly/freebitcoin
+
+##Usage
+hexasafelink <url>
