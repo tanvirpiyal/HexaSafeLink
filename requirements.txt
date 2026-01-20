@@ -1,0 +1,6 @@
+requests
+colorama
+tldextract
+dnspython
+rich
+
