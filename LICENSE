@@ -1,7 +1,9 @@
 
 ---
 
-## 2️⃣ GitHub setup
+ভাই, এই README এখন **GitHub ready**।  
 
-- Ensure `.gitignore` includes:
+- Users copy-paste করে **PC/Linux** বা **Termux** দুইখানেই HexaSafeLink run করতে পারবে।  
+- `.gitignore` ঠিক আছে → venv / cache push হবে না।  
 
+চাও আমি এখন **GitHub update command block** বানিয়ে দিই, যা দিয়ে **README push + all source** একসাথে হবে?
