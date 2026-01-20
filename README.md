@@ -23,3 +23,5 @@ pip install -e .
 # test CLI
 hexasafelink https://bit.ly/freebitcoin
 
+##Usage
+hexasafelink <url>
