@@ -1,13 +1,25 @@
 # HexaSafeLink
 
-HexaSafeLink is a lightweight CLI tool to detect scam and phishing links.
-It checks shortlinks, suspicious domains, scam keywords, DNS behavior,
-and gives a risk score to help users stay safe online.
+**HexaSafeLink CLI** is a lightweight Python tool to detect scam & suspicious links worldwide.
 
-Usage:
-python -m hexasafelink <url>
+## Features
+- Shortlink detection (bit.ly, tinyurl, t.co etc.)
+- Suspicious TLD & keyword detection (.xyz, .top, free, gift, win, etc.)
+- DNS/IP check & risk scoring
+- Colorful CLI output with summary
 
-Example:
-python -m hexasafelink https://bit.ly/freebitcoin
+## Installation (venv or system Python)
+```bash
+# optional: create venv
+python3 -m venv venv
+source venv/bin/activate
 
-Author: Tanvir Piyal
+# install dependencies
+pip install -r requirements.txt
+
+# install HexaSafeLink CLI
+pip install -e .
+
+# test CLI
+hexasafelink https://bit.ly/freebitcoin
+
